@@ -1,0 +1,38 @@
+title: Digital Samordningsplattform – Arkitektur
+description: >
+  Arkitekturbeskrivning för den digitala samordningsplattformen.
+  Beskriver förmågor, begrepp, teknisk realisering och öppna beslut.
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+lang: sv
+
+# Aktivera sökning
+search_enabled: true
+
+# Färgschema: "light" eller "dark"
+color_scheme: light
+
+# Logotyptext i sidhuvud
+logo: ""
+
+# Navigationslänkar i sidfoten
+footer_content: "Digital Samordningsplattform &mdash; Intern arkitekturdokumentation"
+
+# Permanent länkformat
+permalink: pretty
+
+# Sortera navigering efter nav_order
+nav_sort: order
+
+# Aktivera breadcrumbs
+breadcrumbs: true
+
+# Exkludera dessa från bygget
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-remote-theme
